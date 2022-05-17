@@ -1,0 +1,23 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+container {
+	display: grid;
+}
+
+header {
+	grid-area: h;
+}
+main {
+	grid-area: m;
+}
+aside {
+	grid-area: a;
+}
+footer {
+	grid-area: f;
+}
