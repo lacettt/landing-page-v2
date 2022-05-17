@@ -5,19 +5,35 @@ body {
 	box-sizing: border-box;
 }
 
-container {
+.main-container {
 	display: grid;
+	width: 100vw;
+	height: 150vh;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-template-rows: 1fr 10fr 1fr;
+	grid-template-areas:
+		"h h h"
+		"m m m"
+		"f f f";
 }
 
 header {
 	grid-area: h;
+	background: red;
 }
+
+ul {
+	list-style-type: none;
+}
+
 main {
 	grid-area: m;
+	background: green;
 }
 aside {
 	grid-area: a;
 }
 footer {
 	grid-area: f;
+	background: blue;
 }
