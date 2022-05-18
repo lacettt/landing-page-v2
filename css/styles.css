@@ -149,13 +149,12 @@ main {
 	display: flex;
 	font-size: 18px;
 	font-weight: 200;
-	color: #1f2937
+	color: #1f2937;
 	border: solid yellow 5px;
 	width: 80vw;
 	justify-content: space-around;
 	align-items: center;
 	text-align: center;
-
 }
 
 .square-subtexts-item {
