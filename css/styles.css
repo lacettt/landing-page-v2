@@ -55,6 +55,29 @@ main {
 	grid-area: m;
 	background: green;
 }
+
+#text-image-container {
+	display: flex;
+	align-items: center;
+}
+#text-image-container #welcome-text-container {
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+#text-image-container p {
+	color: #ebe8e5;
+	font-size: 18px;
+}
+#text-image-container #image-placeholder-container {
+	display: flex;
+
+	background: #ebe8e5;
+	width: 50vw;
+	height: 35vh;
+}
+
 footer {
 	display: grid;
 	grid-area: f;
