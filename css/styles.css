@@ -123,6 +123,7 @@ main {
 	background: #f9faf8;
 	height: 200vh;
 	align-items: center;
+	z-index: 1;
 }
 
 .title-information {
@@ -150,7 +151,6 @@ main {
 	font-size: 18px;
 	font-weight: 200;
 	color: #1f2937;
-	border: solid yellow 5px;
 	width: 80vw;
 	justify-content: space-around;
 	align-items: center;
@@ -159,6 +159,33 @@ main {
 
 .square-subtexts-item {
 	width: 14vw;
+}
+
+.quote-container {
+	display: flex;
+	background-color: #e5e7eb;
+	position: absolute;
+	width: 100vw;
+	height: 350px;
+	justify-content: center;
+	margin-top: 950px;
+	border: solid yellow 5px;
+}
+
+.quote-text {
+	display: flex;
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	color: #1f2937;
+	margin: 0 200px;
+}
+
+.quote-text-author {
+	justify-self: flex-end;
+	align-self: flex-end;
+	width: 1200px;
+	border: solid pink 5px;
 }
 
 footer {
