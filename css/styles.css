@@ -166,10 +166,10 @@ main {
 	background-color: #e5e7eb;
 	position: absolute;
 	width: 100vw;
-	height: 350px;
+	height: 450px;
 	justify-content: center;
+	align-items: center;
 	margin-top: 950px;
-	border: solid yellow 5px;
 }
 
 .quote-text {
@@ -179,13 +179,16 @@ main {
 	font-style: italic;
 	color: #1f2937;
 	margin: 0 200px;
+	justify-self: center;
 }
 
 .quote-text-author {
 	justify-self: flex-end;
 	align-self: flex-end;
-	width: 1200px;
-	border: solid pink 5px;
+	width: 500px;
+	position: absolute;
+	top: 350px;
+	left: 950px;
 }
 
 footer {
