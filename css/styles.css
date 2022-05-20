@@ -6,6 +6,7 @@ body {
 
 	margin: 0;
 	padding: 0;
+	width: auto;
 	box-sizing: border-box;
 	font-family: roboto;
 }
@@ -165,11 +166,12 @@ main {
 	display: flex;
 	background-color: #e5e7eb;
 	position: absolute;
-	width: 100vw;
+	width: auto;
 	height: 450px;
 	justify-content: center;
 	align-items: center;
 	margin-top: 950px;
+	justify-self: center;
 }
 
 .quote-text {
@@ -191,8 +193,36 @@ main {
 	left: 950px;
 }
 
+.cta-box-container {
+	display: flex;
+	background: #3882f6;
+
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 1600px;
+	width: 60vw;
+	height: 15vh;
+
+	justify-self: center;
+	justify-content: space-around;
+	align-items: center;
+
+	color: #f9faf8;
+}
+
+.cta-box-container button {
+	background: #3882f6;
+	font-weight: bolder;
+	color: #f9faf8;
+	border: #f9faf8 solid 2px;
+	border-radius: 5px;
+	padding: 5px 15px;
+}
+
 footer {
 	display: grid;
 	grid-area: f;
-	background: blue;
+	align-self: center;
+	justify-self: center;
+	color: #f9faf8;
 }
